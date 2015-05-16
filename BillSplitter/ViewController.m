@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 
-@property (nonatomic) SplitCalculator *splitCalculator;
+
 
 @end
 
@@ -37,6 +37,7 @@
 -(IBAction)numberOfPeople:(id)sender {
     
     self.numberDisplayLabel.text = [NSString stringWithFormat:@"%.0f", self.splitSlider.value];
+    [self.billAmount resignFirstResponder];
 }
 
 - (IBAction)calculateSplitAmount:(id)sender{
