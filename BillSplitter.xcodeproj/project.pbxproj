@@ -14,6 +14,7 @@
 		963A67DD1B07B7F500A1E192 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963A67DC1B07B7F500A1E192 /* Images.xcassets */; };
 		963A67E01B07B7F500A1E192 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963A67DE1B07B7F500A1E192 /* LaunchScreen.xib */; };
 		963A67EC1B07B7F500A1E192 /* BillSplitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A67EB1B07B7F500A1E192 /* BillSplitterTests.m */; };
+		963A67F71B07CEB700A1E192 /* SplitCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 963A67F61B07CEB700A1E192 /* SplitCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		963A67E51B07B7F500A1E192 /* BillSplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillSplitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963A67EA1B07B7F500A1E192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963A67EB1B07B7F500A1E192 /* BillSplitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillSplitterTests.m; sourceTree = "<group>"; };
+		963A67F51B07CEB700A1E192 /* SplitCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitCalculator.h; sourceTree = "<group>"; };
+		963A67F61B07CEB700A1E192 /* SplitCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				963A67D41B07B7F500A1E192 /* AppDelegate.m */,
 				963A67D61B07B7F500A1E192 /* ViewController.h */,
 				963A67D71B07B7F500A1E192 /* ViewController.m */,
+				963A67F51B07CEB700A1E192 /* SplitCalculator.h */,
+				963A67F61B07CEB700A1E192 /* SplitCalculator.m */,
 				963A67D91B07B7F500A1E192 /* Main.storyboard */,
 				963A67DC1B07B7F500A1E192 /* Images.xcassets */,
 				963A67DE1B07B7F500A1E192 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				963A67D81B07B7F500A1E192 /* ViewController.m in Sources */,
 				963A67D51B07B7F500A1E192 /* AppDelegate.m in Sources */,
+				963A67F71B07CEB700A1E192 /* SplitCalculator.m in Sources */,
 				963A67D21B07B7F500A1E192 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
