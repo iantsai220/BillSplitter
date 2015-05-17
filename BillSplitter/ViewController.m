@@ -45,7 +45,7 @@
     NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc]init];
     numberFormatter.generatesDecimalNumbers = YES;
     
-    NSNumber *billAmount = [numberFormatter numberFromString:self.billAmount.text];
+    NSDecimalNumber *billAmount = [NSDecimalNumber decimalNumberWithString:self.billAmount.text];
     NSNumber *numberOfPeople = [numberFormatter numberFromString:self.numberDisplayLabel.text];
     
     float splitAmount = [billAmount floatValue] / [numberOfPeople intValue];
